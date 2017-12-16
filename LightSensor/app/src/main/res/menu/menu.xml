@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/action_edit"-->
+        <!--android:icon="@mipmap/edit"-->
+        <!--android:title="Edit"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+    <item android:id="@+id/action_configure"
+        android:title="@string/configure"
+        app:showAsAction="never"/>
+
+    <!--<item android:id="@+id/action_disconnect"-->
+        <!--android:title="@string/disconnect"-->
+        <!--app:showAsAction="never"/>-->
+
+    <item android:id="@+id/menu_toggle_log"
+        app:showAsAction="ifRoom"
+        android:title="@string/hide_log" />
+
+</menu>

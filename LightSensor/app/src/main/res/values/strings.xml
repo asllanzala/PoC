@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LightSensor</string>
+    <string name="show_log">Show Log</string>
+    <string name="hide_log">Hide Log</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="configure">Configure</string>
+    <string name="dialog_disconnect">Disconnect all devices?</string>
+    <string name="dialog_quit_app">Are you leaving?</string>
+    <string name="dialog_configure">Disconnect all devices?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="sensor1">Sensor1</string>
+    <string name="sensor2">Sensor2</string>
+    <string name="sensor3">Sensor3</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="a1">A1:</string>
+    <string name="n1">N1:</string>
+    <string name="a2">A2:</string>
+    <string name="n2">N2:</string>
+    <string name="a3">A3:</string>
+    <string name="n3">N3:</string>
+    <string name="percent">%</string>
+    <string name="formula">D = 10 ^ ((abs(RSSI) - A) / (10 * N))</string>
+    <string name="format_error">X1 Y1 X2 Y2 X3 Y3 A should be Integer, N should be Float.</string>
+    <string name="open_bluetooth">Open bluetooth first.</string>
+
+</resources>

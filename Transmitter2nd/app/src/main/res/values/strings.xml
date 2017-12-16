@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">蓝牙变送器</string>
+    <string name="show_log">显示日志</string>
+    <string name="hide_log">隐藏日志</string>
+    <string name="disconnect">断开连接</string>
+    <string name="configure">重新连接</string>
+    <string name="dialog_disconnect">重新连接设备吗?</string>
+    <string name="dialog_quit_app">退出程序吗?</string>
+    <string name="ok">好的</string>
+    <string name="cancel">取消</string>
+
+    <string name="sensor1">Sensor1</string>
+    <string name="sensor2">Sensor2</string>
+    <string name="sensor3">Sensor3</string>
+    <string name="connecting">正在连接设备</string>
+    <string name="connected">设备已连接</string>
+    <string name="no_bluetooth">手机蓝牙功能没有打开</string>
+    <string name="has_bluetooth">手机蓝牙已打开</string>
+
+    <string-array name="unit_array">
+        <item>英寸水(68F)</item>
+        <item>英寸汞(0C)</item>
+        <item>英尺水(68F)</item>
+        <item>米水(68F)</item>
+        <item>米汞(0C)</item>
+        <item>PSI</item>
+        <item>Bar</item>
+        <item>Millibar</item>
+        <item>克力/cm2</item>
+        <item>Kgf/cm2</item>
+        <item>Pascals</item>
+        <item>Kilopascal</item>
+        <item>Torr</item>
+        <item>Atmosphere</item>
+        <item>Mega-pascal</item>
+        <item>英寸水(39.2F)</item>
+        <item>毫米水</item>
+        <item>英寸水(60F)</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Rankin</item>
+        <item>Kelvin</item>
+        <item>加仑/分钟</item>
+        <item>加仑/小时</item>
+        <item>升/分钟</item>
+        <item>升/小时</item>
+        <item>%</item>
+        <item>厘米水(4C)</item>
+        <item>米水(4C)</item>
+    </string-array>
+    <string name="title_activity_scan">ScanActivity</string>
+
+</resources>

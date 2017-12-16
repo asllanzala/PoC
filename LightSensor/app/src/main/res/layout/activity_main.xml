@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/map_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/map"/>
+
+        <ImageView
+            android:id="@+id/led1_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/led_off" />
+
+        <ImageView
+            android:id="@+id/led2_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/led_off" />
+
+        <ImageView
+            android:id="@+id/led3_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/led_off" />
+
+        <ImageView
+            android:id="@+id/location_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/location_icon" />
+
+
+    </RelativeLayout>
+
+    <ViewAnimator
+        android:id="@+id/sample_output"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/map_rl"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true">
+
+        <fragment
+            android:id="@+id/log_fragment"
+            android:name="com.jin.honeywell.lightsensor.util.Logger.LogFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ViewAnimator>
+
+
+</RelativeLayout>

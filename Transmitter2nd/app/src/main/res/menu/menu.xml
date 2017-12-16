@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/action_diy"-->
+        <!--android:title="读流量显示上下限"-->
+        <!--app:showAsAction="never"/>-->
+
+    <item android:id="@+id/action_version"
+        android:title="App版本信息"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_toggle_log"
+        app:showAsAction="ifRoom"
+        android:title="@string/hide_log" />
+
+    <!--<item android:id="@+id/action_info"-->
+        <!--android:title="读当设备基本信息"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/action_pv"-->
+        <!--android:title="读当前变量值"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/action_zero"-->
+        <!--android:title="开始调零"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/action_limit"-->
+        <!--android:title="读测量上下限"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/action_circuit"-->
+        <!--android:title="开始环路测试"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/action_tag"-->
+        <!--android:title="读设备位号"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/action_serial"-->
+        <!--android:title="读设备序列号"-->
+        <!--app:showAsAction="never"/>-->
+
+</menu>
