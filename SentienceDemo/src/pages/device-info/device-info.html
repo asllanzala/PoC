@@ -1,0 +1,208 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>{{deviceName}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="cards-bg">
+
+    <ion-card>
+
+        <img src="assets/images/iaq.png" class="device" />
+
+        <ion-card-content>
+            <ion-card-title>
+                Indoor Air Quality Monitor
+            </ion-card-title>
+            <p>
+                The gateway collects data from IAQ.
+            </p>
+        </ion-card-content>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='md-thermometer'></ion-icon>
+            PM2.5
+            <ion-note id="pm25" item-right color="secondary">
+                {{pm25}}
+            </ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='ios-thermometer'></ion-icon>
+            PM10
+            <ion-note id="pm25" item-right color="secondary">
+                {{pm10}}
+            </ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='ios-thermometer-outline'></ion-icon>
+            CO2
+            <ion-note id="pm25" item-right color="secondary">
+                {{co2}}
+            </ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='md-ionic'></ion-icon>
+            TVOC
+            <ion-note id="pm25" item-right color="secondary">
+                {{tvoc}}
+            </ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='md-snow'></ion-icon>
+            Temperature
+            <ion-note id="pm25" item-right color="secondary">
+                {{temperature}}
+            </ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='md-water'></ion-icon>
+            Humidity
+            <ion-note id="pm25" item-right color="secondary">
+                {{humidity}}
+            </ion-note>
+        </ion-item>
+
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='star'></ion-icon>
+          Favorite
+        </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='md-cart'></ion-icon>
+          Buy
+        </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='share-alt'></ion-icon>
+          Share
+        </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+
+    <ion-card>
+
+        <div>
+            <img src="assets/images/lyric.png" class="device" />
+        </div>
+
+        <ion-card-content>
+            <ion-card-title>
+                Dual Bands WiFi Platform<br> (Jasfer Senoir)
+            </ion-card-title>
+            <p>
+                The gateway collects data from Dual Bands.
+            </p>
+        </ion-card-content>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='md-snow'></ion-icon>
+            Temperature
+            <ion-note id="pm25" item-right color="secondary">
+                {{temperature}}
+            </ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon color="subtle" large item-left name='md-water'></ion-icon>
+            Humidity
+            <ion-note id="pm25" item-right color="secondary">
+                {{humidity}}
+            </ion-note>
+        </ion-item>
+
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='star'></ion-icon>
+          Favorite
+        </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='md-cart'></ion-icon>
+          Buy
+        </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='share-alt'></ion-icon>
+          Share
+        </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+
+    <ion-card>
+
+        <div>
+            <img src="assets/images/music.png" />
+        </div>
+
+        <ion-card-content>
+            <ion-card-title>
+                Music
+            </ion-card-title>
+            <p>
+                Select music number to play.
+            </p>
+            <ion-item>
+                <ion-icon color="subtle" large item-left name='md-musical-note'></ion-icon>
+                <ion-label>Song</ion-label>
+                <ion-select [(ngModel)]="song">
+                    <ion-option value="1">Song 1</ion-option>
+                    <ion-option value="2">Song 2</ion-option>
+                    <ion-option value="3">Song 3</ion-option>
+                </ion-select>
+            </ion-item>
+        </ion-card-content>
+
+        <ion-row no-padding>
+            <ion-col text-right>
+                <button (click)="play()" ion-button clear small color="danger" icon-left>
+          <ion-icon name='play'></ion-icon>
+          Play
+        </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+
+    <ion-card>
+
+        <div>
+            <img src="assets/images/camera.png" />
+        </div>
+
+        <ion-card-content>
+            <ion-card-title>
+                Snapshot
+            </ion-card-title>
+            <p>
+                Take photo and send to the gateway.
+            </p>
+        </ion-card-content>
+
+        <ion-row no-padding>
+            <ion-col text-right>
+                <button (click)="takePhoto()" ion-button clear small color="danger" icon-left>
+                    <ion-icon name='md-camera'></ion-icon>
+                    Snapshot
+                </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+
+</ion-content>
